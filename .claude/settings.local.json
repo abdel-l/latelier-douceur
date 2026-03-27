@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(mkdir -p c:/xampp/htdocs/php/config)",
+      "Bash(mv c:/xampp/htdocs/php/mysql.php c:/xampp/htdocs/php/config/mysql.php)",
+      "Bash(/c/xampp/mysql/bin/mysql.exe -u root -e \"SELECT email FROM users;\" partage_de_recettes)",
+      "Bash(/c/xampp/php/php.exe c:/xampp/htdocs/php/hash_passwords.php)",
+      "Bash(/c/xampp/mysql/bin/mysql.exe -u:*)",
+      "Read(//c/xampp/mysql/bin/**)",
+      "Bash(./mysql.exe -u root -e \"SELECT email FROM php.users LIMIT 1;\")",
+      "Bash(grep -E \"\\\\.\\(jpg|jpeg|png|gif|webp\\)$\")",
+      "Bash(./mysql.exe -u:*)",
+      "Bash(/c/xampp/mysql/bin/mysql -u root partage_de_recettes -e \"SELECT recipe_id, title, author FROM recipes ORDER BY recipe_id;\")",
+      "Bash(git --version)",
+      "Bash(gh auth:*)"
+    ]
+  }
+}

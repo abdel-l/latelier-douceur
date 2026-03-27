@@ -1,0 +1,22 @@
+idées à faire / trucs à pas oublier
+=====================================
+
+URGENT :
+corriger le bug de l'upload image qui marche pas toujours
+ sécuriser la modif/suppression des recettes (vérifier que c'est bien le proprio) tester sur firefox, ça bug sur le menu navbar
+
+À faire plus tard :
+- ajouter une page profil utilisateur
+- système de likes sur les recettes
+- pagination des commentaires (là y'en a pas)
+- ajouter une catégorie aux recettes (entrée, plat, dessert...)
+- envoyer un mail de confirmation à l'inscription
+- faire une vraie page 404
+
+Questions pour le prof :
+- est-ce qu'il faut obligatoirement faire la jointure SQL ou c'est ok comme j'ai fait ?
+- comment gérer les sessions sur plusieurs onglets ?
+
+bugs connus :
+- si on upload une image trop grande avant la validation du formulaire le message d'erreur s'affiche pas correctement
+- le tri A-Z en js marche pas avec les accents
